@@ -8,19 +8,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>Html Coding Practice</title>
 </head>
 <body>
-    <div class="card">
-        <h3>Basic</h3>
-        <div class="details">
-            <ul>
-                <li><i class="fa fa-check"></i>Single Domain</li>
-                <li><i class="fa fa-check"></i>10 GB Disk Space</li>
-                <li><i class="fa fa-check"></i>1 Email</li>
-                <li><i class="fa fa-check"></i>Free cpanel</li>
-                <li><i class="fa fa-times"></i>Free SSL</li>
-            </ul>
+    <div class="main-container">
+        <div class="container">
+            <div class="upper box">
+                <h1>Login</h1>
+                <h6 class="subTitle">To access your dashboard</h6>
+            </div>
+            <div class="lower box">
+                <form>
+                    <div class="input">
+                        <input class="inputs" type='text' id="username"/>
+                        <label for="'username">Username</label>
+                    </div>
+                    <div class="input">
+                        <input class="inputs" type='password' id="password" />
+                        <label for="password">Password</label>
+                    </div>
+                    <input type="submit" value="Login" class="login-btn"/>
+                </form>
+            </div>
         </div>
-        <p>$<span>20</span>/Month</p>
-        <button>Subscribe</button>
+
+        
+        <div class="card">
+            <h3>Basic</h3>
+            <div class="details">
+                <ul>
+                    <li><i class="fa fa-check"></i>Single Domain</li>
+                    <li><i class="fa fa-check"></i>10 GB Disk Space</li>
+                    <li><i class="fa fa-check"></i>1 Email</li>
+                    <li><i class="fa fa-check"></i>Free cpanel</li>
+                    <li><i class="fa fa-times"></i>Free SSL</li>
+                </ul>
+            </div>
+            <p>$<span>20</span>/Month</p>
+            <button>Subscribe</button>
+        </div>
     </div>
 </body>
 </html>

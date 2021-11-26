@@ -1,3 +1,106 @@
+/* Login Page Styles */
+.main-container{
+    width: 1080px;
+    display: flex;
+}
+
+.container {
+    width: 300px;
+    height: 400px;
+    background-color: #3641b7;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(179, 179, 179, 0.7);
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.box {
+    width: 100%;
+    position: absolute;
+}
+
+.upper {
+    height: 150px;
+    background-color: #3641b7;
+    color: #ffff;
+    border-radius: 0 0 88px 0;
+    top: 0;
+    padding: 20px
+}
+
+.upper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.lower {
+    height: 250px;
+    background-color: #fff;
+    border-radius: 88px 0 0 0;
+    bottom: 0;
+}
+
+.input {
+    position: relative;
+}
+
+form {
+    /* width: 50%; */
+    height: 100%;
+    padding-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+}
+
+.inputs {
+    width: 230px;
+    padding: 25px;
+    outline: none;
+    padding: 0.7rem;
+    border: 1px solid #8c8c8c;
+    transition: 0.2s;
+}
+
+.subTitle{
+    margin-top: -20px;
+}
+
+.inputs:focus{
+    border: 1px solid #3641b7;
+    transition: .2s
+}
+
+.input label {
+    position: absolute;
+    top: -20%;
+    left: 10px;
+    font-size: 0.9rem;
+    transition: 0.2s;
+    padding: 0 .1rem;
+    background-color: #fff;
+}
+
+.login-btn{
+    width: 95%;
+    background-color: #3641b7;
+    border: none;
+    padding: 10px;
+    color: #ffff;
+    margin: 0 20px 20px 20px;
+}
+/* Price Card Styles */
+
 .card {
     position: relative;
     background-color: #fff;
@@ -90,4 +193,5 @@ button {
     background-color: #503e9d;
     color: #fff;
     box-shadow: 0 9px 14px rgba(0, 0, 0, 0.3);
+
 }
